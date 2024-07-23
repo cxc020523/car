@@ -1,0 +1,6 @@
+<launch>
+
+    <arg name="map" default="room.yaml" />
+
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find mycar)/map/$(arg map)"/>
+</launch>

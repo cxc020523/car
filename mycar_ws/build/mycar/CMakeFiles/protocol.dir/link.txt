@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libprotocol.so -o /home/cxc/car/mycar_ws/devel/lib/libprotocol.so CMakeFiles/protocol.dir/src/protocol.cpp.o 

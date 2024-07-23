@@ -1,0 +1,8 @@
+prefix=/home/cxc/car/mycar_ws/devel
+
+Name: mycar
+Description: Description of mycar
+Version: 0.0.0
+Cflags: -I/home/cxc/car/mycar_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp rospy sensor_msgs tf message_runtime move_base_msgs std_msgs urdf xacro

@@ -1,0 +1,2 @@
+mycar
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/cxc/car/mycar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cxc/car/mycar_ws/install -G Unix Makefiles
